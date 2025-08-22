@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       // エントリーポイント
-      entry: path.resolve(__dirname, "src/index.ts"),
+      entry: path.resolve(__dirname, "src/LikertQuestion.tsx"),
       name: "ReactLikertQuestion",
       formats: ["es", "umd"], // ESM と UMD 両対応で配布
       fileName: (format) => `index.${format}.js`,

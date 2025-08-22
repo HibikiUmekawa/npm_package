@@ -26,6 +26,7 @@
     "vite": "^7.0.0"
   },
   "dependencies": {
-    "@vitejs/plugin-react-swc": "^4.0.1"
+    "@vitejs/plugin-react-swc": "^4.0.1",
+    "react-likert-question": "^1.0.0"
   }
 }
