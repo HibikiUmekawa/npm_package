@@ -3,12 +3,13 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "jsx": "react-jsx", // React 17+ ならこれ
-    "lib": ["ESNext", "DOM"], // ← DOM 型を含めるのが重要！
-    "types": ["react", "react-dom"],
+    "jsx": "react-jsx",
+    "lib": ["ESNext", "DOM"],
+    "types": ["react", "react-dom", "node"],
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true
   },
-  "include": ["src"]
+  "include": ["src", "vite.config.ts"],
+  "exclude": ["node_modules", "dist"]
 }
