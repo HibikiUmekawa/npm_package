@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx", // React 17+ ならこれ
+    "lib": ["ESNext", "DOM"], // ← DOM 型を含めるのが重要！
+    "types": ["react", "react-dom"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["src"]
+}
